@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="heading-container">
+        <h1>Register Today</h1>
+        <h2>Fill in the data below.</h2>
+      </div>
+
+      <div class="form-container">
+        <div class="reg-form">
+          <form class="registration-form">
+            <div class="input-container">
+              <label for="fname"></label>
+              <input type="text" placeholder="Full Name" name="fname" />
+            </div>
+            <div class="input-container">
+              <label for="E-mail"></label>
+              <input type="email" placeholder="E-mail Address" name="E-mail" />
+            </div>
+            <div class="input-container">
+              <select name="position" id="position">
+                <option>position</option>
+                <option>Student</option>
+                <option>Trainer</option>
+                <option>Admin</option>
+              </select>
+            </div>
+            <div class="input-container">
+              <label for="password"></label>
+              <input type="password" placeholder="Password" name="password" />
+            </div>
+            <div class="gender-form-container">
+              <p>Gender :</p>
+
+              <input type="radio" name="gender" id="male" checked />
+              <label for="gender">Male</label>
+
+              <input type="radio" name="gender" id="female" />
+              <label for="gender">Female</label>
+              <input type="radio" name="gender" id="secret" />
+              <label for="gender">Secret</label>
+            </div>
+            <div class="form-checkbox">
+              <input type="checkbox" id="confirmation" name="confirmation" />
+              <label for="vehicle1"> I confirm that all data are correct</label
+              ><br />
+            </div>
+
+            <input type="submit" id="submit" value="Register" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
