@@ -1,0 +1,25 @@
+.input-type {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  @include bordered(0px, $color-primary, 5px);
+}
+
+.input-checkbox {
+  margin: 0;
+  width: 16px;
+  height: 18px;
+}
+.form-element input,
+.form-element select {
+  font-size: $font-size-s;
+  padding: 8px 0 8px 10px;
+  color: $color-third;
+}
+
+.form-element input:focus,
+.form-element select:focus {
+  color: $color-secondary;
+}

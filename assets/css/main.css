@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+h1 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+h2 {
+  color: #6e757f;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.title h1,
+.title h2 {
+  margin: 4px;
+}
+
+.input-type {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: 0px solid #fff;
+  border-radius: 5px;
+}
+
+.input-checkbox {
+  margin: 0;
+  width: 16px;
+  height: 18px;
+}
+
+.form-element input,
+.form-element select {
+  font-size: 18px;
+  padding: 8px 0 8px 10px;
+  color: #6e757f;
+}
+
+.form-element input:focus,
+.form-element select:focus {
+  color: #192732;
+}
+
+.lable-fonts,
+.label-checkbox,
+.label-gender {
+  font-size: 16px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 300;
+}
+
+.label-gender {
+  position: relative;
+  top: 10px;
+}
+
+.label-checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+}
+
+.btn {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 12px;
+  margin: 0px 4px;
+}
+
+.btn:hover {
+  background: #131e25;
+}
+
+.register-button {
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  background-color: #6e757f;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px 0 0;
+  padding: 8px 15px;
+  transition-duration: 500ms;
+}
+
+.register-button:hover {
+  background-color: #6e757f;
+  box-shadow: -2px -2px #000000;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+  margin: 0;
+}
+
+.container {
+  background-color: #192732;
+  box-shadow: 0 4px 8px 0 #192732, 0 6px 20px 0 #192732;
+  margin: 100px auto;
+  width: 30%;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 3%;
+}
+
+.A2-form-wrapper {
+  margin-top: 40px;
+}
+
+.A2-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.form-element {
+  height: 40px;
+}
+
+.form-element-custom {
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=main.css.map */

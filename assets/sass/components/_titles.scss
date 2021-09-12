@@ -1,0 +1,16 @@
+h1 {
+  font-family: $primary-font;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-xxl;
+}
+
+h2 {
+  color: $color-third;
+  font-family: $primary-font;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-xs;
+}
+.title h1,
+.title h2 {
+  margin: 4px;
+}
