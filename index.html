@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A2 Form</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Register Today</h1>
+        <h2>Fill the data below</h2>
+      </div>
+      <div class="A2-form-wrapper">
+        <form class="A2-form" method="GET">
+          <div class="form-element">
+            <input
+              class="input-type"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Full Name"
+            />
+          </div>
+          <div class="form-element">
+            <input
+              class="input-type"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail Address"
+            />
+          </div>
+          <div class="form-element">
+            <select class="input-type" name="position" id="position">
+              <option disabled selected value="">Position</span></option>
+              <option value="student">Student</option>
+              <option value="trainer">Trainer</option>
+              <option value="admin">Admin</option>
+            </select>
+          </div>
+          <div class="form-element">
+            <input
+              class="input-type"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+          </div>
+          <div class="form-element ">
+            <label class="label-gender" for="gender"
+              >Gender:
+              <label for="male">
+                <input
+                  class="hidden"
+                  id="male"
+                  type="radio"
+                  name="gender"
+                  value="male"
+                />
+                <span class="btn">Male</span>
+              </label>
+              <label for="female">
+                <input
+                  class="hidden"
+                  id="female"
+                  type="radio"
+                  name="gender"
+                  value="female"
+                />
+                <span class="btn">Female</span>
+              </label>
+              <label for="secret">
+                <input
+                  class="hidden"
+                  id="secret"
+                  type="radio"
+                  name="gender"
+                  value="secret"
+                />
+                <span class="btn">Secret</span>
+              </label>
+            </label>
+          </div>
+          <div class="form-element form-element-custom">
+            <label class="label-checkbox" for="agree">
+              <input class="input-checkbox"type="checkbox" name="agree" />
+              I confirm that all data are correct.
+            </label>
+          </div>
+          <div class="form-element">
+            <button class="register-button" type="submit">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

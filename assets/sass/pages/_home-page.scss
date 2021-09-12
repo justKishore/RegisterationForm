@@ -1,0 +1,32 @@
+body {
+  background-color: $bg-body;
+  color: $color-primary;
+  margin: 0;
+}
+
+.container {
+  background-color: $bg-primary;
+  box-shadow: 0 4px 8px 0 $bg-primary, 0 6px 20px 0 $bg-primary;
+  margin: 100px auto;
+  width: 30%;
+  @include bordered(2px, $color-primary, 10px);
+  padding: 3%;
+}
+
+.A2-form-wrapper {
+  margin-top: 40px;
+}
+.A2-form {
+  @include flex(column);
+  gap: 12px;
+}
+.form-element {
+  height: 40px;
+}
+.form-element-custom {
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}

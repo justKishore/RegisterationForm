@@ -1,0 +1,27 @@
+.btn {
+  @include bordered(2px, $color-primary, 5px);
+  cursor: pointer;
+  font-size: $font-size-xxs;
+  padding: 4px 12px;
+  margin: 0px 4px;
+}
+.btn:hover {
+  background: #131e25;
+}
+
+.register-button {
+  color: $color-primary;
+  cursor: pointer;
+  border: none;
+  background-color: $color-third;
+  border-radius: 5px;
+  font-size: $font-size-xs;
+  margin: 10px 0 0;
+  padding: 8px 15px;
+  transition-duration: 500ms;
+}
+
+.register-button:hover {
+  background-color: #6e757f;
+  box-shadow: -2px -2px #000000;
+}
